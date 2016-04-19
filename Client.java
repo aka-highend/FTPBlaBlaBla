@@ -9,9 +9,9 @@ public class Client {
     private Socket socket = null;
     private ObjectOutputStream outputStream = null;
     private boolean isConnected = false;
-    private String sourceFilePath = "D:/TestServer/ANALYSIS OF DIGITAL IMAGE STEGANOGRAPHY USING SPREAD SPECTRUM METHOD BASED ON ANDROID.pdf";
+    private String sourceFilePath = "[Your folder directory, as server the transmitter]";
     private FileEvent fileEvent = null;
-    private String destinationPath = "C:/Users/fachrur_122/Documents/Projects/SISTERS/TestClient";
+    private String destinationPath = "[Your folder directory, as recipient]";
     
     public Client() {  }
     
